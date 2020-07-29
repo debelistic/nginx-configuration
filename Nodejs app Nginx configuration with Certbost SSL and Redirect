@@ -18,10 +18,10 @@ server {
    
     listen 443 ssl http2;
     listen [::]:443 ssl http2;
-    server_name api.skillupnigeria.org;
+    server_name app.domain.com;
 
     # Use the Let’s Encrypt certificates
-    ssl_certificate /etc/letsencrypt/live/aapp.domain.com/fullchain.pem;
+    ssl_certificate /etc/letsencrypt/live/app.domain.com/fullchain.pem;
     ssl_certificate_key /etc/letsencrypt/live/app.domain.comg/privkey.pem;
 
     include snippets/ssl-params.conf;
